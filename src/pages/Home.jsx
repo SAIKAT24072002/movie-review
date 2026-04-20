@@ -66,7 +66,7 @@ export default function Home() {
         <img
           src={featuredMovie.backdrop}
           alt=""
-          className="absolute inset-0 w-full h-full object-cover scale-105"
+          className="absolute inset-0 w-full h-full object-cover scale-105"   
         />
 
         {/* Gradient overlays */}
