@@ -18,8 +18,8 @@ export default function Footer() {
                   </svg>
                 </div>
                 <span className="font-display text-lg font-bold tracking-tight">
-                  <span className="gradient-text">Cine</span>
-                  <span className="text-white">Verse</span>
+                  <span className="gradient-text">Movie</span>
+                  <span className="text-white">Review</span>
                 </span>
               </Link>
               <p className="text-surface-500 text-sm leading-relaxed max-w-xs">
@@ -85,7 +85,7 @@ export default function Footer() {
           {/* ── Bottom bar ──────────────────── */}
           <div className="mt-14 pt-6 border-t border-surface-800/30 flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-surface-600 text-xs">
-              © {new Date().getFullYear()} CineVerse. Built with ❤️ for Indian Cinema.
+              © {new Date().getFullYear()} MovieReview. Built with ❤️ for Indian Cinema.
             </p>
             <div className="flex items-center gap-5">
               {["Privacy", "Terms", "Contact"].map((item) => (
